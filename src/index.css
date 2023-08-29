@@ -6,3 +6,10 @@
   right: 0;
   display: flex;
 }
+
+html {
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
