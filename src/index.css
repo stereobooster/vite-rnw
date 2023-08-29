@@ -1,15 +1,8 @@
-/* These styles make the body full-height */
-html,
-body {
-  height: 100%;
-}
-
-/* These styles disable body scrolling if you are using <ScrollView> */
-body {
-  overflow: hidden;
-}
-
-/* These styles make the root element full-height */
 #root {
-  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
 }

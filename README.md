@@ -1,27 +1,29 @@
-# React + TypeScript + Vite
+# Experiment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Example from react-native-paper
 
-Currently, two official plugins are available:
+Tried to use example from here https://github.com/callstack/react-native-paper/blob/main/example/src/index.tsx, but I got error:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+Uncaught Error: useAnimatedStyle was used without a dependency array or Babel plugin. Please explicitly pass a dependency array, or enable the Babel/SWC plugin.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+For more, see the docs: https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/web-support#web-without-a-babel-plugin
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Plus this one https://github.com/software-mansion/react-native-reanimated/discussions/5007.
+
+## Example 2
+
+After bilion of errors I was able to create page with bottom navigation. I want to replicate something more interesting, like https://blog.logrocket.com/designing-custom-ui-using-react-native-paper/#introduction-react-native-paper or https://callstack.github.io/react-native-paper/docs/showcase
+
+## Warnings
+
+```
+"textAlignVertical" style is deprecated. Use "verticalAlign". index.js:24:12
+props.pointerEvents is deprecated. Use style.pointerEvents index.js:24:12
+accessibilityRole is deprecated. Use role. index.js:24:12
+"transform" style array value is deprecated. Use space-separated string functions, e.g., "scaleX(2) rotateX(15deg)". index.js:24:12
+selectable prop is deprecated. Use styles.userSelect. index.js:24:12
+focusable is deprecated. index.js:24:12
+Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+```
