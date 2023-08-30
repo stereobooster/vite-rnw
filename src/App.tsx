@@ -1,8 +1,6 @@
 import React from "react";
-
-import MyComponent from "./MyComponent";
-
+import { Text } from "react-native";
 
 export default function App() {
-  return <MyComponent />;
+  return <Text>Hello World</Text>;
 }
