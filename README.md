@@ -6,9 +6,10 @@ I want to try all available libraries:
   - [Vite doesn't work](https://github.com/tamagui/tamagui/issues/1592)
 - [paper](https://reactnativepaper.com/)
   - see `react-native-paper` branch in this repo
+- [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web#existing-expo-applications)
+  - see `react-native-ui-kitten` branch in this repo
 - [RNUI](https://wix.github.io/react-native-ui-lib/)
 - [magnus](https://magnus-ui.com/)
-- [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web#existing-expo-applications)
 - [drispy](https://github.com/nandorojo/dripsy)
 - [gluestack-ui](https://ui.gluestack.io/), successor for [NativeBase](https://nativebase.io/)
 
