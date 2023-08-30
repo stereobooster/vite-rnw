@@ -3,7 +3,7 @@
 I want to try all available libraries:
 
 - [tamagui](https://tamagui.dev/)
-  - [Vite doesn't work](https://github.com/tamagui/tamagui/issues/1592)
+  - see `tamagui` branch in this repo
 - [paper](https://reactnativepaper.com/)
   - see `react-native-paper` branch in this repo
 - [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web#existing-expo-applications)
