@@ -9,7 +9,7 @@ I want to try all available libraries:
 - [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web#existing-expo-applications)
   - see `react-native-ui-kitten` branch in this repo
 - [RNUI](https://wix.github.io/react-native-ui-lib/)
-  - depends on `react-native-reanimated` which causes issues, see `react-native-paper` branch
+  - see `react-native-ui-lib` branch in this repo
 - [magnus](https://magnus-ui.com/)
   - depends on `react-native-reanimated` which causes issues, see `react-native-paper` branch
 - [drispy](https://github.com/nandorojo/dripsy)
@@ -20,3 +20,4 @@ I want to try all available libraries:
 Other:
 
 - [react-native-web-lite](https://github.com/tamagui/tamagui/tree/master/packages/react-native-web-lite)
+- https://www.npmjs.com/package/@originjs/webpack-to-vite
