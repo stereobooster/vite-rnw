@@ -45,8 +45,7 @@ const pwaOptions: Partial<VitePWAOptions> = {
   base: "/",
 };
 
-// https://github.com/necolas/react-native-web/issues/2292
-// https://github.com/th3rdwave/react-native-safe-area-context/issues/202#issuecomment-1204474830
+// https://tamagui.dev/docs/intro/installation
 const extensions = [
   ".web.tsx",
   ".tsx",
@@ -58,17 +57,22 @@ const extensions = [
   ".js",
   ".css",
   ".json",
+  ".mjs",
 ];
 
+const development = process.env.NODE_ENV === "development";
+
 // https://vitejs.dev/config/
-export default defineConfig(({ command, mode }) => ({
+export default defineConfig({
+  clearScreen: true,
   plugins: [react(), VitePWA(pwaOptions), qrcode()],
   define: {
     // https://github.com/bevacqua/dragula/issues/602#issuecomment-1296313369
     global: "window",
-    // https://github.com/vitejs/vite/issues/1973#issuecomment-787571499
-    "process.env": {},
-    __DEV__: command === "serve" || mode === "development",
+    __DEV__: development,
+    // https://tamagui.dev/docs/intro/installation
+    DEV: development,
+    "process.env.NODE_ENV": process.env.NODE_ENV,
   },
   resolve: {
     extensions: extensions,
@@ -79,6 +83,8 @@ export default defineConfig(({ command, mode }) => ({
   optimizeDeps: {
     esbuildOptions: {
       resolveExtensions: extensions,
+      // https://github.com/vitejs/vite-plugin-react/issues/192#issuecomment-1627384670
+      jsx: "automatic",
       // need either this or the plugin below
       loader: { ".js": "jsx" },
       // plugins: [
@@ -88,4 +94,4 @@ export default defineConfig(({ command, mode }) => ({
       // ],
     },
   },
-}));
+});
