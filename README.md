@@ -9,11 +9,6 @@ I want to try all available UI libraries with Vite:
 - [magnus](https://magnus-ui.com/), see [v-react-native-magnus](./v-react-native-magnus/)
 - [gluestack-ui](https://ui.gluestack.io/), successor for [NativeBase](https://nativebase.io/), see [v-gluestack](./v-gluestack/)
 
-Other:
-
-- [react-native-web-lite](https://github.com/tamagui/tamagui/tree/master/packages/react-native-web-lite)
-- https://www.npmjs.com/package/@originjs/webpack-to-vite
-
 TODO:
 
 - [ ] deploy to netlify - each project in separate path
