@@ -5,3 +5,5 @@ packages:
   - "./v-react-native-ui-lib"
   - "./v-react-native-magnus"
   - "./v-gluestack"
+  - "./v-tamagui"
+

@@ -1,0 +1,43 @@
+{
+  "name": "v-tamagui",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "TAMAGUI_TARGET=web vite --host",
+    "build": "TAMAGUI_TARGET=web tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "TAMAGUI_TARGET=web vite preview"
+  },
+  "dependencies": {
+    "@tamagui/animations-css": "latest",
+    "@tamagui/core": "latest",
+    "@tamagui/create-theme": "latest",
+    "@tamagui/lucide-icons": "^1.57.8",
+    "@tamagui/polyfill-dev": "latest",
+    "@tamagui/react-native-svg": "latest",
+    "@tamagui/shorthands": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.4",
+    "react-native-svg": "^13.13.0",
+    "react-native-web": "^0.18.10",
+    "tamagui": "latest"
+  },
+  "devDependencies": {
+    "@bunchtogether/vite-plugin-flow": "^1.0.2",
+    "@tamagui/vite-plugin": "latest",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "@vitejs/plugin-react-swc": "^3.3.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-pwa": "^0.16.4",
+    "vite-plugin-qrcode": "^0.2.2"
+  }
+}
