@@ -69,10 +69,10 @@ export default defineConfig({
   define: {
     // https://github.com/bevacqua/dragula/issues/602#issuecomment-1296313369
     global: "window",
-    __DEV__: development,
+    __DEV__: JSON.stringify(development),
     // https://tamagui.dev/docs/intro/installation
-    DEV: development,
-    "process.env.NODE_ENV": process.env.NODE_ENV,
+    DEV: JSON.stringify(development),
+    "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
   },
   resolve: {
     extensions: extensions,
