@@ -1,2 +1,3 @@
 packages:
-  - "./vanilla"
+  - "./v-react-native-web"
+  - "./v-react-native-paper"
