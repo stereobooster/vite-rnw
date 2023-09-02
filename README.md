@@ -11,9 +11,9 @@ I want to try all available UI libraries:
 - [RNUI](https://wix.github.io/react-native-ui-lib/)
   - see `react-native-ui-lib` branch in this repo
 - [magnus](https://magnus-ui.com/)
-  - depends on `react-native-reanimated` which causes issues, see `react-native-paper` branch
+  - see `react-native-magnus` branch in this repo
 - [gluestack-ui](https://ui.gluestack.io/), successor for [NativeBase](https://nativebase.io/)
-  - still in development and misses some components
+  - see `gluestack` branch in this repo
 
 Other:
 
