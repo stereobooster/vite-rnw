@@ -2,3 +2,4 @@ packages:
   - "./v-react-native-web"
   - "./v-react-native-paper"
   - "./v-react-native-ui-kitten"
+  - "./v-react-native-ui-lib"
