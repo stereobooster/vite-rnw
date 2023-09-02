@@ -1,11 +1,15 @@
 # react-native-magnus with Vite
 
+## Install and run
+
 ```
 pnpm i
 pnpm run dev
 ```
 
-Current issues:
+## Notes
+
+Current issue:
 
 ```
 ✘ [ERROR] No matching export in "node_modules/.pnpm/react-native-magnus@1.0.63_react-native-animatable@1.3.3_react-native-modal@13.0.1_react-nati_gv7bi4drq2pctmvofdenfgcryy/node_modules/react-native-magnus/lib/module/theme/theme.provider.js" for import "ThemeProviderProps"

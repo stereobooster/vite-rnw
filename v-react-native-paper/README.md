@@ -1,27 +1,20 @@
 # react-native-paper with Vite
 
+## Install and run
+
 ```
 pnpm i
 pnpm run dev
 ```
 
-## Example from react-native-paper
+## Good examples
 
-Tried to use example from here https://github.com/callstack/react-native-paper/blob/main/example/src/index.tsx, but I got error:
+- https://blog.logrocket.com/designing-custom-ui-using-react-native-paper/#introduction-react-native-paper
+- https://callstack.github.io/react-native-paper/docs/showcase
 
-```
-Uncaught Error: useAnimatedStyle was used without a dependency array or Babel plugin. Please explicitly pass a dependency array, or enable the Babel/SWC plugin.
+## Notes
 
-For more, see the docs: https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/web-support#web-without-a-babel-plugin
-```
-
-Plus this one https://github.com/software-mansion/react-native-reanimated/discussions/5007.
-
-## Example 2
-
-After bilion of errors I was able to create page with bottom navigation. I want to replicate something more interesting, like https://blog.logrocket.com/designing-custom-ui-using-react-native-paper/#introduction-react-native-paper or https://callstack.github.io/react-native-paper/docs/showcase
-
-## Warnings
+Warnings:
 
 ```
 "textAlignVertical" style is deprecated. Use "verticalAlign". index.js:24:12

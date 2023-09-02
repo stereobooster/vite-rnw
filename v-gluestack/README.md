@@ -1,9 +1,17 @@
 # gluestack with Vite
 
+## Install and run
+
 ```
 pnpm i
 pnpm run dev
 ```
+
+## Good examples
+
+- https://github.com/gluestack/ui-examples
+
+## Notes
 
 Warnings:
 
@@ -19,5 +27,3 @@ accessibilityLabelledBy is deprecated. Use aria-labelledby. index.js:24:12
 StyleSheet.compose(a, b) is deprecated; use array syntax, i.e., [a,b]. 2 index.js:119:12
 Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md NativeAnimatedHelper.js:412:14
 ```
-
-For inspiration https://github.com/gluestack/ui-examples

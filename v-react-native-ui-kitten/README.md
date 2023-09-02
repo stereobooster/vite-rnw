@@ -1,9 +1,17 @@
 # react-native-ui-kitten with Vite
 
+## Install and run
+
 ```
 pnpm i
 pnpm run dev
 ```
+
+## Good examples
+
+- https://github.com/akveo/kittenTricks
+
+## Notes
 
 Warnings:
 
@@ -17,5 +25,3 @@ focusable is deprecated. index.js:24:12
 BackHandler is not supported on web and should not be used. index.js:15:12
 StyleSheet.compose(a, b) is deprecated; use array syntax, i.e., [a,b]. index.js:119:12
 ```
-
-For inspiration: https://github.com/akveo/kittenTricks

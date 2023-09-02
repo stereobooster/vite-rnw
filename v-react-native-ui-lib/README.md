@@ -1,13 +1,15 @@
 # react-native-ui-lib with Vite
 
+## Install and run
+
 ```
 pnpm i
 pnpm run dev
 ```
 
-Getting started https://wix.github.io/react-native-ui-lib/docs/getting-started/usage
+## Notes
 
-Curtrent issues:
+Curtrent issue:
 
 ```
 [ERROR] No matching export in "node_modules/.pnpm/react-native-web@0.19.8_react-dom@18.2.0_react@18.2.0/node_modules/react-native-web/dist/index.js" for import "PlatformColor"
