@@ -1,19 +1,13 @@
-# React-native-web for PWA
+# React-native-web and co with Vite
 
 I want to try all available UI libraries with Vite:
 
-- [tamagui](https://tamagui.dev/)
-  - see `tamagui` branch in this repo
-- [paper](https://reactnativepaper.com/)
-  - see `react-native-paper` branch in this repo
-- [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web#existing-expo-applications)
-  - see `react-native-ui-kitten` branch in this repo
-- [RNUI](https://wix.github.io/react-native-ui-lib/)
-  - see `react-native-ui-lib` branch in this repo
-- [magnus](https://magnus-ui.com/)
-  - see `react-native-magnus` branch in this repo
-- [gluestack-ui](https://ui.gluestack.io/), successor for [NativeBase](https://nativebase.io/)
-  - see `gluestack` branch in this repo
+- [tamagui](https://tamagui.dev/), see [v-tamagui](./v-tamagui/)
+- [paper](https://reactnativepaper.com/), see [v-paper](./v-paper/)
+- [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web#existing-expo-applications), see [v-react-native-ui-kitten](./v-react-native-ui-kitten/)
+- [RNUI](https://wix.github.io/react-native-ui-lib/), see [v-react-native-ui-lib](./v-react-native-ui-lib/)
+- [magnus](https://magnus-ui.com/), see [v-react-native-magnus](./v-react-native-magnus/)
+- [gluestack-ui](https://ui.gluestack.io/), successor for [NativeBase](https://nativebase.io/), see [v-gluestack](./v-gluestack/)
 
 Other:
 
@@ -22,5 +16,4 @@ Other:
 
 TODO:
 
-- [ ] use folders instead of branches
 - [ ] deploy to netlify - each project in separate path
