@@ -3,3 +3,4 @@ packages:
   - "./v-react-native-paper"
   - "./v-react-native-ui-kitten"
   - "./v-react-native-ui-lib"
+  - "./v-react-native-magnus"

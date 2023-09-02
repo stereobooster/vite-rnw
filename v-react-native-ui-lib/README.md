@@ -1,4 +1,4 @@
-# React-native-web for PWA
+# react-native-ui-lib with Vite
 
 ```
 pnpm i
