@@ -16,6 +16,7 @@ TODO:
 ## Common issues
 
 - https://github.com/necolas/react-native-web/issues/2455
+- https://github.com/react-navigation/react-navigation/issues/11316
 - Types in JS files:
   - https://github.com/jsartisan/react-native-magnus/issues/185
   - https://github.com/wix/react-native-ui-lib/issues/2730
