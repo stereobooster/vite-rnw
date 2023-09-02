@@ -1,6 +1,6 @@
 # React-native-web for PWA
 
-I want to try all available libraries:
+I want to try all available UI libraries:
 
 - [tamagui](https://tamagui.dev/)
   - see `tamagui` branch in this repo
