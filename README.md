@@ -12,8 +12,6 @@ I want to try all available libraries:
   - see `react-native-ui-lib` branch in this repo
 - [magnus](https://magnus-ui.com/)
   - depends on `react-native-reanimated` which causes issues, see `react-native-paper` branch
-- [drispy](https://github.com/nandorojo/dripsy)
-  - Not really a UI library. "Unstyled, responsive UI primitives for React Native + Web."
 - [gluestack-ui](https://ui.gluestack.io/), successor for [NativeBase](https://nativebase.io/)
   - still in development and misses some components
 
