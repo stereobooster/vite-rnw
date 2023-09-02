@@ -1,6 +1,6 @@
 # React-native-web for PWA
 
-I want to try all available UI libraries:
+I want to try all available UI libraries with Vite:
 
 - [tamagui](https://tamagui.dev/)
   - see `tamagui` branch in this repo
@@ -19,3 +19,8 @@ Other:
 
 - [react-native-web-lite](https://github.com/tamagui/tamagui/tree/master/packages/react-native-web-lite)
 - https://www.npmjs.com/package/@originjs/webpack-to-vite
+
+TODO:
+
+- [ ] use folders instead of branches
+- [ ] deploy to netlify - each project in separate path
