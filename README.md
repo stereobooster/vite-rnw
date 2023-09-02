@@ -16,5 +16,7 @@ TODO:
 ## Common issues
 
 - https://github.com/necolas/react-native-web/issues/2455
-- https://github.com/jsartisan/react-native-magnus/issues/185
-- https://github.com/wix/react-native-ui-lib/issues/2730
+- Types in JS files:
+  - https://github.com/jsartisan/react-native-magnus/issues/185
+  - https://github.com/wix/react-native-ui-lib/issues/2730
+  - https://github.com/software-mansion/react-native-reanimated/discussions/5007
